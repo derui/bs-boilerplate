@@ -1,0 +1,20 @@
+{
+  "name": "bs-boilerplate",
+  "version": "0.1.0",
+  "sources": [
+    "src",
+    {
+      "dir": "test",
+      "type": "dev"
+    }
+  ],
+  "package-specs" : {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "generate-merlin": true,
+  "bs-dependencies" : [
+      // add your bs-dependencies here 
+  ]
+}
