@@ -7,6 +7,7 @@
     "watch": "bsb -make-world -w",
     "bundle:test": "webpack",
     "test": "npm-run-all -s build bundle:test run:test",
+    "run:test": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
     "format": "node ./scripts/format.js"
   },
   "keywords": [
